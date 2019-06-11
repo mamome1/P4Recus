@@ -1,3 +1,4 @@
+#Modificamos nuestro archivo.
 
 $(document).on('click', '.btnSalirSession', function () {
 
@@ -12,4 +13,4 @@ $(document).on('click', '.btnSalirSession', function () {
 
 $(document).on('click', '.btnPagAtras', function () {
   window.history.back();
-});
+})
