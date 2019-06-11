@@ -1,0 +1,15 @@
+
+$(document).on('click', '.btnSalirSession', function () {
+
+  $.ajax({
+    url: "../back/login/logout.php",
+    success: function (response) {
+      window.location.href = "index.html";
+    }
+  });
+
+});
+
+$(document).on('click', '.btnPagAtras', function () {
+  window.history.back();
+});
